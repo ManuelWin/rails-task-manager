@@ -3,3 +3,5 @@
 <h3><%= @task.details %></h3>
 
 <%= link_to "Back to Tasks", tasks_path %>
+
+<%= link_to "Delete this Task", t_path(@task), method: :delete %>

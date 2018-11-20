@@ -8,7 +8,7 @@ Rails.application.routes.draw do
 
     get 'tasks/:id', to: 'tasks#show', as: :show
 
-    get 'tasks/:id/edit', to: 'tasks#edit', as: :edit
+    get 'tasks/:id/edit', to: 'tasks#edit', as: :pet_edit
 
     patch 'tasks/:id', to: 'tasks#update', as: :update
 
